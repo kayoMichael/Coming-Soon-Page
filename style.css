@@ -1,0 +1,94 @@
+body,html {
+    min-width: 100%;
+    min-height: 100vh;
+    margin:0;
+    font-family: "AdihausDIN";
+}
+
+#all-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#addidas-image {
+    margin: 15px auto;
+    display:block;
+}
+
+#main-image {
+    background-color:cadetblue;
+    background-image: url(Bitmap.png);
+    width:100%;
+    height: 300px;
+    background-size: 100% auto;
+}
+
+#text-contents {
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 42px;
+    margin-top:30px;
+    font-weight: 700;
+    color: #423A3A;
+    margin: 15px;
+}
+
+p {
+    line-height: 28px;
+    margin-top: 30px;
+    color: #333333;
+}
+
+h2.red-text {
+    color: #CD3A24;
+}
+
+.black-text {
+    color: #423A3A;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 104.167% */
+    letter-spacing: 5px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.all-contents {
+    padding: 30px 60px;
+    text-align: center;
+}
+
+.submit-form {
+    display:flex;
+    justify-content: center;
+}
+
+#email {
+    border-radius: 3px;
+    border: 1px solid var(--Gray-1, #333);
+    opacity: 0.5;
+    width: 311px;
+    height: 48px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+#submit {
+    width: 64px;
+    color: white;
+    font-size: 17;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: var(--Gray-1, #333);
+    box-shadow: 0px 15px 20px 0px rgba(66, 58, 58, 0.15);
+    box-sizing: border-box;
+}
