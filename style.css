@@ -1,13 +1,14 @@
 body,html {
     min-width: 100%;
     min-height: 100vh;
-    margin:0;
+    margin: 0;
     font-family: "AdihausDIN";
 }
 
 #all-container {
     max-width: 500px;
     margin: 0 auto;
+    text-align: center;
 }
 
 #addidas-image {
@@ -15,7 +16,7 @@ body,html {
     display:block;
 }
 
-#main-image {
+#main-image-mobile {
     background-color:cadetblue;
     background-image: url(Bitmap.png);
     width:100%;
@@ -25,7 +26,6 @@ body,html {
 
 #text-contents {
     width: 100%;
-    text-align: center;
 }
 
 h2 {
@@ -37,6 +37,10 @@ h2 {
     font-weight: 700;
     color: #423A3A;
     margin: 15px;
+}
+
+body {
+    display: flex;
 }
 
 p {
@@ -62,7 +66,6 @@ h2.red-text {
 
 .all-contents {
     padding: 30px 60px;
-    text-align: center;
 }
 
 .submit-form {
@@ -92,3 +95,47 @@ h2.red-text {
     box-shadow: 0px 15px 20px 0px rgba(66, 58, 58, 0.15);
     box-sizing: border-box;
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #main-image-mobile {
+        display: none;
+    }
+
+    body {
+        background: url('https://assets.codepen.io/6060109/destop-bg.png');
+        background-size: cover;
+    }
+
+    #all-container {
+        text-align: 50%;
+        text-align: left;
+        margin-left: 40px;
+        margin-right: 120px;
+    }
+
+    #addidas-image {
+        margin: 60px 65px 100px;
+        display:block;
+    }
+
+    .desktop-image {
+        display: block;
+        width: 2000px;
+        background-image: url('https://assets.codepen.io/6060109/athlete-big.png');
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 32% 100%);
+    }
+
+    h2 {
+        margin-left: 0;
+        font-size: 64px;
+        margin: 40px;
+        margin-left: 0;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    
+} 
