@@ -52,10 +52,6 @@ h2 {
     margin: 15px;
 }
 
-body {
-    display: flex;
-}
-
 p {
     line-height: 28px;
     margin-top: 30px;
@@ -91,19 +87,17 @@ h2.blue-text {
     border-radius: 3px;
     border: 1px solid var(--Gray-1, #333);
     opacity: 0.5;
-    width: 311px;
+    width: 75%;
     height: 48px;
-    flex-shrink: 0;
     box-sizing: border-box;
     padding: 0 20px;
 }
 
 #submit {
-    width: 64px;
+    width: 25%;
     color: white;
     font-size: 17;
     height: 48px;
-    flex-shrink: 0;
     border-radius: 3px;
     background: rgb(124,124,124);
     background: linear-gradient(90deg, rgba(124,124,124,1) 0%, rgba(124,124,124,1) 35%, rgba(43,40,40,1) 100%);
@@ -120,12 +114,11 @@ h2.blue-text {
     body {
         background: url('https://assets.codepen.io/6060109/waves.png');
         background-size: cover;
+        display: flex;
     }
 
     #all-container {
         text-align: left;
-        margin-left: 40px;
-        margin-right: 120px;
         width: 50%;
     }
 
@@ -142,7 +135,6 @@ h2.blue-text {
         background-image: url('https://assets.codepen.io/6060109/shoes.png');
         background-size: cover;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-        margin-left: 400px;
     }
 
     h2 {
@@ -156,8 +148,11 @@ h2.blue-text {
         font-size: 16px;
     }
 
+    .submit-form {
+        justify-content: left;
+    }
+
     #submit {
-        width: 100px;
         height: 56px;
         flex-shrink: 0;
         font-size: 30px;
@@ -165,7 +160,5 @@ h2.blue-text {
 
     #email {
         height: 56px;
-        margin-left: 70px;
-        width: 350px;
     }
 } 
