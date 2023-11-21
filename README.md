@@ -2,6 +2,8 @@
 
 Simple Addidas Coming Soon Page using Responsive CSS and HTML
 
+## This is Version 1. For Version 2: https://github.com/kayoMichael/landing-page-2
+
 ## Mobile Page
 <p align="center">
   <img width="500" alt="mobile image" src="https://github.com/kayoMichael/Coming-Soon-Page/assets/101680503/58b3147c-a764-4620-9010-8b27baf75716">
